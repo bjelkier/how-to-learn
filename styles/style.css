@@ -333,28 +333,19 @@
   min-height: 350px;
 }
 
-logo_place_footer {
-  width: 228px;
-  height: 32px;
-  padding-left: 0;
-  margin: 0;
-}
-
 .author {
   display: flex;
-  position: relative;
   padding: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .footer__icon {
   height: 16px;
   width: 16px;
-  margin-left: 0;
 }
 
 .columns {
@@ -364,13 +355,17 @@ logo_place_footer {
   width: 90%;
   padding-top: 60px;
   padding-bottom: 40px;
+  justify-content: space-between;
 }
 
-.column {
-  min-height: 350px;
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+  padding-left: 0;
+  margin: 0;
 }
 
-column_content_copyright {
+.column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
