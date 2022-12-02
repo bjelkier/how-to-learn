@@ -301,12 +301,6 @@
   align-self: flex-start;
 }
 
-.footer__icon {
-  height: 16px;
-  width: 16px;
-  padding-right: 10px;
-}
-
 .footer__columns {
   margin: 0 auto;
   display: flex;
@@ -360,4 +354,10 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
 }
